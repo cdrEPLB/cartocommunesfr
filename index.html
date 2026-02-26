@@ -18,7 +18,7 @@
         }
         
         body {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            background: linear-gradient(90deg, #FF6A00 0%, #267F00 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -907,13 +907,21 @@
         
         <div class="footer">
             <i class="fas fa-info-circle"></i>
-            <span id="communeCount">0</span> communes chargées • 
-            <span>Survolez une commune pour voir ses infos • </span>
-            <span>(c) JF Désiré 21.02.2026</span>
+            <span id="communeCount">0</span> communes chargées • (c) JF Désiré • Lycée Agricole du Bourbonnais • 25.02.2026</span>
+
             <i class="fas fa-database" style="margin-left: 10px;" title="Données : IGN / Admin Express"></i>
         </div>
+			<div style="padding-left:50px; padding-right:50px; padding-bottom:50px; "><span style="font-weight:bold;">Mode d'emploi :</span></br>
+			1. Sélectionner le(s) département(s) dont on peut changer la couleur en cliquant sur le point à côté du Nom et du numéro</br>
+			2. Changer la couleur de fond de la commune en cliquant autant de fois que nécessaire sur la carte ou sur la liste à droite</br>
+			3. Possibilité d'enregistrer et de récupérer les communes modifiées (exporter/importer au format Microsoft Excel)</br>
+			4. Couleurs et textes des options modifiables avec le "stylo" à droite</br>
+			5. Titre modifiable avec le "stylo" à droite</br>
+			6. Récupérer la : exporter en JPG (sans titre ni légende) ou faire une capture d'écran pour ajouter titre et légende à la carte</br> 
+			7. Différents styles de carte proposés (bouton blanc en haut : OpenStreetMap Standard par défaut)
+			</div>
     </div>
-    
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         // Configuration initiale des statuts
